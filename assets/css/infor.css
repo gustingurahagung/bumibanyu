@@ -1,0 +1,418 @@
+/* CSS Dasar */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Warna latar belakang */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Warna heading */
+  }
+  
+  /* CSS untuk Judul Grafik */
+  
+  .judul-grafik {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #666; /* Warna judul grafik */
+  }
+  
+  /* CSS untuk Grafik Container */
+  
+  .grafik-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ccc; /* Batas */
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+    background-color: #fff; /* Warna latar belakang */
+  }
+  
+  .grafik-container canvas {
+    width: 400px;
+    height: 300px;
+    margin: 15px; /* Jarak antar grafik */
+    border: 1px solid #ddd; /* Batas */
+    border-radius: 5px; /* Sudut membulat */
+  }
+  
+  /* CSS untuk Judul Grafik Individual */
+  
+  .grafik-coco .judul-grafik,
+  .grafik-tair .judul-grafik {
+    margin-top: 0; /* Menghapus margin atas untuk judul grafik individual */
+  }
+  
+  /* CSS Responsif */
+  
+  @media (max-width: 768px) {
+    .grafik-container {
+      flex-direction: column; /* Susun grafik secara vertikal pada layar kecil */
+    }
+  
+    .grafik-container canvas {
+      width: 100%; /* Lebar penuh untuk setiap grafik pada layar kecil */
+      margin-bottom: 20px; /* Jarak antar grafik pada layar kecil */
+    }
+  }
+  .service-row {
+      box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  }
+  
+  .service-item {
+      border-color: rgba(0, 0, 0, .03) !important;
+  }
+  
+  .service-item .btn {
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      color: #FFFFFF;
+      background: var(--primary);
+      border-radius: 38px;
+      white-space: nowrap;
+      overflow: hidden;
+      transition: .5s;
+  }
+  
+  .service-item:hover .btn {
+      width: 140px;
+  }
+  
+  
+  /*** Feature ***/
+  @media (min-width: 992px) {
+      .container.feature {
+          max-width: 100% !important;
+      }
+  
+      .feature-text  {
+          padding-left: calc(((100% - 960px) / 2) + .75rem);
+      }
+  }
+  
+  @media (min-width: 1200px) {
+      .feature-text  {
+          padding-left: calc(((100% - 1140px) / 2) + .75rem);
+      }
+  }
+  
+  @media (min-width: 1400px) {
+      .feature-text  {
+          padding-left: calc(((100% - 1320px) / 2) + .75rem);
+      }
+  }
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 80%;
+      text-align: center;
+      border: 1px solid #ccc; /* Batas */
+      border-radius: 10px; /* Sudut membulat */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+      background-color: #fff; /* Warna latar belakang */
+    
+  }
+  
+  .about-text {
+      margin: auto;
+  }
+  
+  .btn-square {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  .grafik-coco {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+      padding: 5px;
+      border: 1px solid #ccc; /* Batas */
+      border-radius: 10px; /* Sudut membulat */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+      background-color: #fff; /* Warna latar belakang */
+    }
+    
+    .grafik-coco canvas {
+      width: 400px;
+      height: 300px;
+      margin: 5px; /* Jarak antar grafik */
+      border: 1px solid #ddd; /* Batas */
+      border-radius: 5px; /* Sudut membulat */
+    }
+    
+    /* CSS untuk Judul Grafik Individual */
+    
+    .grafik-coco .judul-grafik,
+    .grafik-tair .judul-grafik {
+      margin-top: 0; /* Menghapus margin atas untuk judul grafik individual */
+    }
+    header {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    section {
+      margin-bottom: 20px;
+    }
+    
+    .potensi-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .potensi-item img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+    
+    .potensi-item h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    
+    .potensi-item p {
+      margin-bottom: 0;
+    }
+    
+    /* CSS Dasar */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Warna latar belakang */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Warna heading */
+  }
+  
+  /* CSS untuk Judul Grafik */
+  
+  .judul-grafik {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #666; /* Warna judul grafik */
+  }
+  
+  /* CSS untuk Grafik Container */
+  
+  .grafik-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ccc; /* Batas */
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+    background-color: #fff; /* Warna latar belakang */
+  }
+  
+  .grafik-container canvas {
+    width: 400px;
+    height: 300px;
+    margin: 15px; /* Jarak antar grafik */
+    border: 1px solid #ddd; /* Batas */
+    border-radius: 5px; /* Sudut membulat */
+  }
+  
+  /* CSS untuk Judul Grafik Individual */
+  
+  .grafik-coco .judul-grafik,
+  .grafik-tair .judul-grafik {
+    margin-top: 0; /* Menghapus margin atas untuk judul grafik individual */
+  }
+  
+  /* CSS Responsif */
+  
+  @media (max-width: 768px) {
+    .grafik-container {
+      flex-direction: column; /* Susun grafik secara vertikal pada layar kecil */
+    }
+  
+    .grafik-container canvas {
+      width: 100%; /* Lebar penuh untuk setiap grafik pada layar kecil */
+      margin-bottom: 20px; /* Jarak antar grafik pada layar kecil */
+    }
+  }
+  .service-row {
+      box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  }
+  
+  .service-item {
+      border-color: rgba(0, 0, 0, .03) !important;
+  }
+  
+  .service-item .btn {
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      color: #FFFFFF;
+      background: var(--primary);
+      border-radius: 38px;
+      white-space: nowrap;
+      overflow: hidden;
+      transition: .5s;
+  }
+  
+  .service-item:hover .btn {
+      width: 140px;
+  }
+  
+  
+  /*** Feature ***/
+  @media (min-width: 992px) {
+      .container.feature {
+          max-width: 100% !important;
+      }
+  
+      .feature-text  {
+          padding-left: calc(((100% - 960px) / 2) + .75rem);
+      }
+  }
+  
+  @media (min-width: 1200px) {
+      .feature-text  {
+          padding-left: calc(((100% - 1140px) / 2) + .75rem);
+      }
+  }
+  
+  @media (min-width: 1400px) {
+      .feature-text  {
+          padding-left: calc(((100% - 1320px) / 2) + .75rem);
+      }
+  }
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 80%;
+      text-align: center;
+      border: 1px solid #ccc; /* Batas */
+      border-radius: 10px; /* Sudut membulat */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+      background-color: #fff; /* Warna latar belakang */
+    
+  }
+  
+  .about-text {
+      margin: auto;
+  }
+  
+  .btn-square {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  .grafik-coco {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+      padding: 5px;
+      border: 1px solid #ccc; /* Batas */
+      border-radius: 10px; /* Sudut membulat */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+      background-color: #fff; /* Warna latar belakang */
+    }
+    
+    .grafik-coco canvas {
+      width: 400px;
+      height: 300px;
+      margin: 5px; /* Jarak antar grafik */
+      border: 1px solid #ddd; /* Batas */
+      border-radius: 5px; /* Sudut membulat */
+    }
+    
+    /* CSS untuk Judul Grafik Individual */
+    
+    .grafik-coco .judul-grafik,
+    .grafik-tair .judul-grafik {
+      margin-top: 0; /* Menghapus margin atas untuk judul grafik individual */
+    }
+    header {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    section {
+      margin-bottom: 20px;
+    }
+    
+    .potensi-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .potensi-item img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+    
+    .potensi-item h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    
+    .potensi-item p {
+      margin-bottom: 0;
+    }
+    

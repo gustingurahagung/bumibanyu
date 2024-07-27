@@ -1,0 +1,179 @@
+.services-three {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .services-three__bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .big-title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .big-title h2 {
+    font-size: 3rem;
+    color: #fff; /* Assuming white text on the background image */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .services-three__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .sec-title-three {
+    text-align: left;
+  }
+  
+  .sec-title-three__tagline p {
+    text-transform: uppercase;
+    color: #ccc; /* Assuming a light color for the tagline */
+  }
+  
+  .sec-title-three h2 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .counter-box {
+    text-align: center;
+  }
+  
+  .counter-box h2 {
+    font-size: 3rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+  
+  .col-xl-4, .col-lg-4 {
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  .col-xl-8, .col-lg-8 {
+    width: 66.66%;
+    padding: 15px;
+  }
+  
+  .services-three__left {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+  }
+  
+  .services-three__left-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .content-box {
+    padding: 20px;
+  }
+  
+  .content-box span {
+    display: block;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .content-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .content-box p {
+    margin-bottom: 20px;
+  }
+  
+  .btn-box {
+    text-align: center;
+  }
+  
+  .btn-box a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-box a:hover {
+    background-color: #0056b3;
+  }
+  
+  .services-three__right {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .services-three__right-single {
+    width: 50%;
+    padding: 15px;
+  }
+  
+  .inner {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .icon-box {
+    margin-bottom: 20px;
+  }
+  
+  .icon-box span {
+    font-size: 3rem;
+    color: #007bff;
+  }
+  
+  .icon-box .bg-box {
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  .content-box h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .content-box p {
+    margin-bottom: 0;
+  }
+  
+  /* Add more CSS for other sections as needed */
+  
